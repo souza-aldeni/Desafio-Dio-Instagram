@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.container-body{
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+.container-foto-celular{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-foto-celular img{
+    width: 600px;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* vertical */
+    margin-left: 50px;
+    width: 50%;
+
+}
+
+.login-link-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+
+}
+#foto-perfil{
+    display: flex;
+    border-radius: 50%;
+    width: 40%;    
+}
+#logo-insta{
+    display: flex;
+    width: 50%;
+}
+
+.lnk-continua{
+    padding: 15px;
+    border-radius: 2px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.lnk-remove-conta{
+    padding: 15px;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn_app_play{
+    height: auto;
+    width: 50%;
+}
+.baixe-app{
+    display: flex;
+
+}
+.alterar-inscrever{
+    color:rgb(136, 132, 132);
+    padding: 10px;
+    background-color: white;
+    margin-top: 5px;
+    width: 100%;
+}
+.baixe-app{
+    display: flex;
+    margin-top: 10px;
+}
+.container-baixa-app{
+    margin-top: 10px;
+}
+.cor-letra{
+    color: rgb(136, 132, 132);
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .container-foto-celular{
+        display: none;
+    }
