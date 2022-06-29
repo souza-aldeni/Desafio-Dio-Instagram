@@ -1,4 +1,4 @@
-# Desafio-Dio-Instagram
+# Desafio Dio Instagram
 
 Este desafio tem como objetivo reproduzir a tela de Login do Site do Instagram, utilizando o aprendizado ministrado no curso de HTML/CSS3 e FlexBox. Para atingir este objetivo utilizei os seguintes recursos:
  + VsCode;
